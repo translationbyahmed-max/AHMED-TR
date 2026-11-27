@@ -401,27 +401,3 @@ footer {
         min-height: 160px;
     }
 }
-/* Games Cards Layout */
-
-.games {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-}
-
-.games h2 {
-    width: 100%;
-    text-align: right;
-}
-
-.game-card {
-    flex: 0 0 230px;
-    max-width: 100%;
-}
-
-@media (max-width: 600px) {
-    .games {
-        justify-content: center;
-    }
-}
