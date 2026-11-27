@@ -425,3 +425,22 @@ footer {
         justify-content: center;
     }
 }
+
+/* Screenshot Gallery - Fixed Image Sizes */
+
+.screenshot-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.screenshot-gallery img {
+    width: 100%;
+    max-width: 320px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+}
